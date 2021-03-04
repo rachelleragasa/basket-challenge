@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { expect } = require('chai')
+const { expect } = require('chai');
 
 const Basket = require('../src/index');
 
@@ -31,7 +31,7 @@ describe('Basket', () => {
                 id: '0103',
                 name: 'Chloé Lauren low-top sneakers',
                 price: 370
-            }
+            };
 
             const basket = new Basket();
             basket.addProduct(item);
@@ -57,7 +57,7 @@ describe('Basket', () => {
                 id: '0104',
                 name: 'Chloé Lauren low-top sneakers',
                 price: 370
-            }
+            };
 
             const item3 = {
                 id: '0105',
@@ -69,7 +69,7 @@ describe('Basket', () => {
                 id: '0106',
                 name: 'Chloé Lauren low-top sneakers',
                 price: 370
-            }
+            };
 
             const basket = new Basket();
             basket.addProduct(item);
@@ -96,9 +96,9 @@ describe('Basket', () => {
                 id: '0103',
                 name: 'Chloé Lauren low-top sneakers',
                 price: 370
-            }
+            };
 
-            const basket = new Basket()
+            const basket = new Basket();
             basket.addProduct(item);
             basket.addProduct(item2);
 
